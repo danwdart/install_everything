@@ -45,8 +45,8 @@ apt update
 
 echo Installing software
 apt install -y atom fldigi flrig wsjtx docker-engine git ffmpeg firefox \
-torbrowser-launcher openmw openmw-launcher wget \
-doomsday higan dolphin-emu fceux pcsxr openarena \
+torbrowser-launcher openmw openmw-launcher wget ddate htop jnettop iotop \
+doomsday higan dolphin-emu fceux pcsxr openarena powertop \
 sauerbraten qwbfsmanager gimp blender inkscape pavucontrol \
 gpredict qsstv freedv clementine gladish qjackctl winehq-staging \
 jack-rack ardour guvcview kdenlive picard qarecord rosegarden yoshimi \

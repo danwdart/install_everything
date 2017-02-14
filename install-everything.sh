@@ -50,7 +50,8 @@ doomsday higan dolphin-emu fceux pcsxr openarena powertop \
 sauerbraten qwbfsmanager gimp blender inkscape pavucontrol \
 gpredict qsstv freedv clementine gladish qjackctl winehq-staging \
 jack-rack ardour guvcview kdenlive picard qarecord rosegarden yoshimi \
-chirp-daily vim php-cli nodejs python-qt4 python-pip build-essential
+chirp-daily vim php-cli php-xml php-curl nodejs python-qt4 python-pip \
+build-essential kaffeine
 # pcsx2
 
 echo Installing GEarth

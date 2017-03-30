@@ -50,9 +50,10 @@ doomsday higan dolphin-emu fceux pcsxr openarena powertop \
 sauerbraten qwbfsmanager gimp blender inkscape pavucontrol \
 gpredict qsstv freedv clementine gladish qjackctl winehq-staging \
 jack-rack ardour guvcview kdenlive picard qarecord rosegarden yoshimi \
-chirp-daily vim php-cli php-xml php-curl nodejs python-qt4 python-pip \
-build-essential kaffeine audacity mplayer nmap unrar xtightvncviewer \
-etherape wireshark ufw-kde boinc-client-nvidia-cuda boinc-manager \
+chirp-daily vim php-cli php-xml php-curl php-mcrypt php-xdebug nodejs \
+python-qt4 python-pip build-essential kaffeine audacity mplayer \
+nmap unrar xtightvncviewer etherape wireshark ufw-kde john \
+kde-zeroconf boinc-client-nvidia-cuda boinc-manager \
 ppa-purge hashcat aircrack-ng lm-sensors smartmontools k4dirstat
 # pcsx2
 

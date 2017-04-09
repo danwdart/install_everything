@@ -54,7 +54,8 @@ chirp-daily vim php-cli php-xml php-curl php-mcrypt php-xdebug nodejs \
 python-qt4 python-pip build-essential kaffeine audacity mplayer \
 nmap unrar xtightvncviewer etherape wireshark ufw-kde john \
 kde-zeroconf boinc-client-nvidia-cuda boinc-manager \
-ppa-purge hashcat aircrack-ng lm-sensors smartmontools k4dirstat
+ppa-purge hashcat aircrack-ng lm-sensors smartmontools k4dirstat \
+whois postfix bitcoin-qt assimp-utils openssh-server kgpg kleopatra
 # pcsx2
 
 echo Installing GEarth

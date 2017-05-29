@@ -33,11 +33,14 @@ curl -fsSL http://repo.longlandclan.id.au/signkey.gpg | apt-key add -
 echo Adding Node keys
 curl -sL https://deb.nodesource.com/setup_7.x | bash -
 
+echo Adding VBox PPA and key
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+
 RELEASE=$(lsb_release -cs)
 echo Release is $RELEASE
 
 echo Modifying sources
-sed -i "s/xenial/$RELEASE/g" sources.list.d/*
+sed -i "s/yakkety/$RELEASE/g" sources.list.d/*
 cp -r sources.list.d /etc/apt/
 
 echo Updating again
@@ -55,7 +58,8 @@ python-qt4 python-pip build-essential kaffeine audacity mplayer \
 nmap unrar xtightvncviewer etherape wireshark ufw-kde john \
 kde-zeroconf boinc-client-nvidia-cuda boinc-manager \
 ppa-purge hashcat aircrack-ng lm-sensors smartmontools k4dirstat \
-whois postfix bitcoin-qt assimp-utils openssh-server kgpg kleopatra
+whois postfix bitcoin-qt assimp-utils openssh-server kgpg kleopatra \
+virtualbox screenfetch
 # pcsx2
 
 echo Installing GEarth
@@ -82,10 +86,6 @@ echo Installing Steam
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 dpkg -i steam.deb
 
-echo Installing VBox
-wget http://download.virtualbox.org/virtualbox/5.1.14/virtualbox-5.1_5.1.14-112924~Ubuntu~yakkety_amd64.deb
-dpkg -i virtualbox-*.deb
-
 echo Installing Vagrant
 wget https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb
 dpkg -i vagrant*
@@ -95,10 +95,6 @@ apt-get install -yf
 
 echo Setting up VBox
 /sbin/vboxconfig
-
-echo Installing VBox extpack
-wget http://download.virtualbox.org/virtualbox/5.1.14/Oracle_VM_VirtualBox_Extension_Pack-5.1.14-112924.vbox-extpack
-VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack*
 
 echo Installing ET
 wget http://filebase.trackbase.net/et/full/et260b.x86_full.zip

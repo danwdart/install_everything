@@ -1,0 +1,93 @@
+tcnon docker
+
+kubuntu backports
+docker
+6
+docker
+docker to test these things...
+X/kde/etc
+jess/atom
+jess/audacity
+jess/chrome
+jess/gimp
+jess/inkscape
+jess/nmap
+jess/tor
+jess/virtualbox
+jess/vscode
+jess/wine
+jess/wireshark
+php
+node
+bitcoin
+ffmpeg
+firefox
+doomsday
+openarena
+sauerbraten
+gpredict
+clementine (do I ever use it?)
+guvcview
+mplayer
+unrar
+john
+boinc
+hashcat
+aircrack
+k4dirstat/qdirstat
+smartmontools
+whois
+postfix/email
+assimp-utils
+sshd
+pcsx2
+openmw
+screenfetch
+blender
+steam
+keybase
+vagrant
+enemy territory
+electrum
+
+to dockerise
+
+fldigi
+flrig
+wsjtx
+chirp
+higan
+dolphin-emu
+fceux
+pcsxr
+powertop
+qwbfsmanager
+pavucontrol
+qsstv
+freedv
+gladish
+qjackctl
+jack-rack
+ardour
+kdenlive
+picard
+qarecord
+rosegarden
+yoshimi
+jnettop
+kaffeine
+xtightvncviewer
+etherape
+kgpg/kleopatra
+googleearth
+google music manager
+
+not sure whether to docker (or docker w/helpers?)
+git
+wget
+ddate
+htop
+iotop
+vim
+build tools? probably not
+lm-sensors

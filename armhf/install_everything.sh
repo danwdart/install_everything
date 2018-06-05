@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 ./code.sh
 ./radio.sh
 ./games.sh

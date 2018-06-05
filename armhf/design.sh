@@ -1,3 +1,2 @@
 #!/bin/bash
-apt install git
-apt install gimp inkscape blender
+apt -y install gimp inkscape blender

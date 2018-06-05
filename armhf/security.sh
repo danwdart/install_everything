@@ -1,3 +1,3 @@
 #!/bin/bash
-apt install kgpg kleopatra
+apt -y install kgpg kleopatra
 # keybase

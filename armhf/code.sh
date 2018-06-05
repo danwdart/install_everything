@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install git
+apt -y install git
 ./docker.sh
 ./node.sh
 

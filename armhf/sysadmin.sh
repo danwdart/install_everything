@@ -1,2 +1,2 @@
 #!/bin/bash
-apt install vim openssh-server lm-sensors
+apt -y install vim openssh-server lm-sensors

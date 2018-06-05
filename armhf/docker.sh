@@ -1,5 +1,5 @@
 #!/bin/bash
- apt-get install \
+ apt-get -y install \
      apt-transport-https \
      ca-certificates \
      curl \
@@ -14,6 +14,6 @@ tee /etc/apt/sources.list.d/docker.list
 
 apt update
 
-apt-get install docker-ce
+apt-get -y install docker-ce
 
 pip install docker-compose

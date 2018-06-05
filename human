@@ -1,0 +1,20 @@
+code: docker node git vscode/atom
+
+radio: fldigi flrig wsjtx chirp gpredict qsstv freedv
+
+games: doomsday higan dolphin-emu fceux pcsxr openarena sauerbraten qwbfsmanager pcsx2 openmw openmw-launcher steam
+
+design: gimp inkscape blender
+
+audio: pavucontrol picard gladish jack-rack ardour rosegarden yoshimi audacity
+
+video: kdenlive
+
+hacking: nmap xtightvncviewer wireshark aircrack-ng whois
+
+sysadmin: vim openssh-server lm-sensors
+
+security: kgpg kleopatra keybase
+
+
+Also I never realised ncdu existed, it's amazing
